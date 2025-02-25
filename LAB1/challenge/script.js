@@ -16,13 +16,17 @@ let shoes = 89.78;
 
 
 // 1. If divided evenly, how much would each sibling get for the week?
+console.log(weeklyAllowance/3); // Each sibling would get $43 for the week
+let weeklyCut = weeklyAllowance / 3;
 
 // 2. How many games can Jordan buy with their cut?
+console.log(weeklyCut/game); //Jordan could buy only 2 games with his cut
 
 // 3. The cost of games just went up by a dollar and shoes are on sale at 50% (half) off. Change the variables to their new prices.
-
+console.log(game+1)
+console.log(shoes*.5)
 // 4. Quinn and Ricardo are twins. If they put their money together, how many on sale shoes can they buy in a month (4 weeks)?
-
+console.log((weeklyCut+weeklyCut)^4/shoes)
 // 5. How many more games can they buy if they put their money together compared to if they had bought games on their own?
 
 // 6. Print out the three siblings' names. "The three siblings are __, __, and ___."
